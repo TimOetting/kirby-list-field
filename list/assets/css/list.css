@@ -1,0 +1,9 @@
+.list-field .list-item{
+  margin-bottom: .5em;
+  position: relative;
+}
+
+.list-field .list-item .sortable-handle{
+  pointer-events: auto;
+  cursor: move;
+}
