@@ -11,11 +11,11 @@ Here is a blueprint example:
         type: list
         placeholder: Add a new fruit
 
-This will give us a section field like this:
+Have a look at the resulting panel field:
 
 ![list field demo](https://github.com/TimOetting/kirby-list-field/blob/master/PREVIEW.gif?raw=true)
 
-The content will be YAML-structured. Inside the template, the field has to be decooded as an array using $page->fruits()->yaml().
+The content will be YAML-structured. Inside the template, the field therefore has to be decoded as an array using $page->fruits()->yaml().
 
     ----
 
