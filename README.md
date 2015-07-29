@@ -13,41 +13,19 @@ Here is a blueprint example:
 
 This will give us a section field like this:
 
-![Kirby builder Screenshot](https://raw.githubusercontent.com/TimOetting/kirby-builder/master/kirby-builder-panel.png)
+![list field demo](https://github.com/TimOetting/kirby-list-field/blob/master/PREVIEW.gif?raw=true)
 
 The content will be YAML-structured. Inside the template, the field has to be decooded as an array using $page->fruits()->yaml().
 
-	----
+    ----
 
     Fruits: 
 
-    - 
-      text: >
-        Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Ipsa, rerum quam
-        similique numquam doloremque, quidem
-        sequi placeat quibusdam aspernatur
-        doloribus tempore, obcaecati eligendi
-        odio eaque repellendus accusamus veniam
-        blanditiis impedit.
-      _fieldset: bodytext
-    - 
-      image: forrest.jpg
-      url: www.getkirby.com
-      _fieldset: linkedImage
-    - 
-      text: >
-        Power is of two kinds. One is obtained
-        by the fear of punishment and the other
-        by acts of love. Power based on love is
-        a thousand times more effective and
-        permanent then the one derived from fear
-        of punishment.
-      citation: Mahadma Gandhi
-      _fieldset: quote
+    - Lemons
+    - Apples
+    - Banana
+    - Oranges
 
 ## Setup
-The plugin comes in two pieces:
-* The content of the **fields** folder has to be copied into **site/fields** inside your Kirby installation
-* The content of the **plugins** folder has to be copied into **site/plugins** inside your Kirby installation
+Custom fields are located in *site/fields* inside your Kirby installation. If you can't find any *fields* folder, create one. The right place for the *list* folder is *site/fields/list*.
  
