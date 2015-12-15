@@ -27,5 +27,5 @@ The content will be YAML-structured. Inside the template, the field therefore ha
     - Oranges
 
 ## Setup
-Custom fields are located in *site/fields* inside your Kirby installation. If you can't find any *fields* folder, create one. The right place for the *list* folder is *site/fields/list*.
+Using git, go to the root folder of your Kirby project and run ``git clone https://github.com/TimOetting/kirby-list-field.git site/fields/list``. You can also just copy the content of this repository into ``site/fields/list``.
  
