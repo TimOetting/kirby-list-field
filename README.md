@@ -28,4 +28,4 @@ The content will be YAML-structured. Inside the template, the field therefore ha
 
 ## Setup
 Using git, go to the root folder of your Kirby project and run ``git clone https://github.com/TimOetting/kirby-list-field.git site/fields/list``. You can also just copy the content of this repository into ``site/fields/list``.
- 
+ # kirby-gallery
