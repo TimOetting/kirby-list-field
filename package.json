@@ -1,0 +1,8 @@
+{
+  "name": "list",
+  "description": "Kirby List Field",
+  "author": "Tim Ötting",
+  "version": "1.0",
+  "type": "kirby-field",
+  "license": "MIT"
+}
