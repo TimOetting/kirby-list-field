@@ -32,7 +32,7 @@ class ListField extends BaseField {
     ));
 
     if(!is_array($value)) {
-      $input->val(html($value, false));
+      $input->val($value, false);
     }
 
     if($this->readonly()) {
