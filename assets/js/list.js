@@ -9,7 +9,7 @@
       var newInput = newListItem.find('input');
       newInput.val($(e.target).val())
       $(e.target).val('')
-      console.log(newInput.focus());
+      newInput.focus();
     })
 
     $(element).on('keydown', '.list .input', function(e){
