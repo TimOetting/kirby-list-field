@@ -66,6 +66,14 @@ class ListField extends BaseField {
     return tpl::load(__DIR__ . DS . 'template.php', array('field' => $this));
 
   }
+  
+  public function element() {
+
+    $element = parent::element();
+    $element->addClass('field-with-icon');
+    return $element;
+
+  }
 
   public function result() {
 
